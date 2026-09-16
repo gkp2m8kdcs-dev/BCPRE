@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BCPRE - Support</title>
+<meta name="description" content="BCPRE is a personal investment journal for self-directed investors. Track portfolios, log trades, and attach trade tickets - all stored locally on your device." />
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0b0d12;
+    --surface: #14171f;
+    --surface-2: #1b1f29;
+    --text: #e9edf5;
+    --muted: #9aa3b2;
+    --accent: #4f8cff;
+    --accent-2: #7aa2ff;
+    --border: rgba(255,255,255,0.08);
+    --radius: 14px;
+  }
+  html, body { background: var(--bg); color: var(--text); }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 56px 24px 80px; }
+  header { text-align: center; margin-bottom: 40px; }
+  .logo {
+    width: 72px; height: 72px; border-radius: 18px; margin: 0 auto 18px;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 32px; font-weight: 700; color: #fff;
+    box-shadow: 0 12px 32px rgba(79,140,255,0.35);
+  }
+  h1 { font-size: 32px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; }
+  .tagline { color: var(--muted); font-size: 16px; }
+  h2 {
+    font-size: 20px; font-weight: 600; margin: 36px 0 14px;
+    letter-spacing: -0.01em;
+  }
+  h3 { font-size: 16px; font-weight: 600; margin: 18px 0 8px; color: var(--accent-2); }
+  p { color: var(--muted); margin-bottom: 14px; font-size: 15px; }
+  ul { color: var(--muted); margin: 0 0 14px 22px; font-size: 15px; }
+  li { margin-bottom: 6px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    margin-bottom: 16px;
+  }
+  .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-bottom: 24px; }
+  .feature {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 18px;
+  }
+  .feature h3 { margin-top: 0; }
+  a { color: var(--accent-2); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .btn {
+    display: inline-block; padding: 12px 22px; border-radius: 10px;
+    background: var(--accent); color: #fff; font-weight: 600;
+    transition: transform 0.15s ease, background 0.15s ease;
+  }
+  .btn:hover { background: var(--accent-2); text-decoration: none; transform: translateY(-1px); }
+  .cta { text-align: center; margin: 28px 0 8px; }
+  footer {
+    margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--border);
+    color: var(--muted); font-size: 13px; text-align: center;
+  }
+  footer a { color: var(--muted); }
+  .meta { font-size: 13px; color: var(--muted); margin-top: 6px; }
+  @media (max-width: 600px) {
+    .container { padding: 36px 18px 56px; }
+    h1 { font-size: 26px; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">B</div>
+      <h1>BCPRE Support</h1>
+      <p class="tagline">Track every move. Master every market.</p>
+    </header>
+
+    <section class="cta">
+      <a class="btn" href="mailto:berrakcantavan@gmail.com?subject=BCPRE%20Support">Contact Support</a>
+      <p class="meta">Support email: <a href="mailto:berrakcantavan@gmail.com">berrakcantavan@gmail.com</a></p>
+    </section>
+
+    <h2>About BCPRE</h2>
+    <div class="card">
+      <p>BCPRE is a personal investment journal for self-directed investors. It helps you manage multiple portfolios, log every buy and sell with full execution detail, attach photos of paper trade tickets, and analyze your performance over time - all stored locally on your device.</p>
+    </div>
+
+    <h2>Key Features</h2>
+    <div class="grid">
+      <div class="feature">
+        <h3>Portfolios</h3>
+        <p>Organize holdings across multiple accounts and strategies.</p>
+      </div>
+      <div class="feature">
+        <h3>Trade Journal</h3>
+        <p>Record every buy, sell, dividend, and split with full execution detail.</p>
+      </div>
+      <div class="feature">
+        <h3>Attachments</h3>
+        <p>Attach photos of paper trade tickets and notes to any trade.</p>
+      </div>
+      <div class="feature">
+        <h3>Watchlist</h3>
+        <p>Monitor symbols you are tracking without cluttering your portfolios.</p>
+      </div>
+      <div class="feature">
+        <h3>Insights</h3>
+        <p>News and economic calendar to keep your journal context-rich.</p>
+      </div>
+      <div class="feature">
+        <h3>Multi-Currency</h3>
+        <p>Track values in your preferred base currency.</p>
+      </div>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="card">
+      <h3>Does BCPRE connect to my broker?</h3>
+      <p>No. BCPRE does not connect to any broker, exchange, or trading platform. It is a manual journaling tool. You record your own trades and the app organizes and analyzes the data.</p>
+    </div>
+
+    <div class="card">
+      <h3>Does BCPRE place or transmit orders?</h3>
+      <p>No. The app cannot place, route, or transmit orders of any kind. All entries are stored only on your device.</p>
+    </div>
+
+    <div class="card">
+      <h3>Where is my data stored?</h3>
+      <p>All portfolios, trades, watchlist, alerts, attachments, and preferences live exclusively on your device in the app's private storage. Nothing is uploaded to a remote server.</p>
+    </div>
+
+    <div class="card">
+      <h3>Does BCPRE provide investment advice?</h3>
+      <p>No. BCPRE does not provide investment, financial, legal, or tax advice. Charts, quotes, and news shown in the app are illustrative for personal journaling and may be delayed or simulated.</p>
+    </div>
+
+    <div class="card">
+      <h3>How do I export my data?</h3>
+      <p>Open Settings &rarr; Data &rarr; Export Workspace. A JSON snapshot of your portfolios, trades, watchlist, and alerts will be generated that you can save or share.</p>
+    </div>
+
+    <div class="card">
+      <h3>How do I reset the app?</h3>
+      <p>Open Settings &rarr; Data &rarr; Reset All Data. This permanently removes all portfolios, trades, watchlist, alerts, and attachments on your device. This action cannot be undone.</p>
+    </div>
+
+    <div class="card">
+      <h3>How do I delete my account or data?</h3>
+      <p>BCPRE does not require an account. To remove all data from your device, use the in-app Reset All Data option, or delete the app from your device.</p>
+    </div>
+
+    <h2>Need Help?</h2>
+    <div class="card">
+      <p>If you have a question, found a bug, or want to request a feature, please email us at <a href="mailto:berrakcantavan@gmail.com">berrakcantavan@gmail.com</a>. Include your iOS version, device model, and a description of the issue when possible - this helps us resolve it faster.</p>
+      <p style="margin-top:14px;"><a class="btn" href="mailto:berrakcantavan@gmail.com?subject=BCPRE%20Support">Email Support</a></p>
+    </div>
+
+    <h2>Legal</h2>
+    <div class="card">
+      <ul>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Use</a></li>
+      </ul>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 BCPRE. All rights reserved.</p>
+      <p>App name: BCPRE &middot; <a href="mailto:berrakcantavan@gmail.com">berrakcantavan@gmail.com</a></p>
+    </footer>
+  </div>
+</body>
+</html>
